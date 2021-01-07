@@ -1,0 +1,171 @@
+body{
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	margin: 0;
+	background-image: url("images/bg-gradient.jpg");
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+h1{
+	font-size: 100px;
+	line-height: 100px;
+	font-weight: 700px;
+	margin-top:0px;
+	margin-bottom:0px;
+}
+h2{
+	font-size: 50px;
+	font-weight: 700px;
+	margin-top:0px;
+	margin-bottom: 0px;
+}
+h3{
+	font-size: 25px;
+	font-weight: 700px;
+	margin-top:20px;
+	margin-bottom: 10px;
+}
+h4{
+	font-size: 14px;
+	font-weight: 700px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	margin-top:20px;
+	margin-bottom: 0px;
+}
+p{
+	line-height: 22px;
+	margin-bottom: 10px;
+	margin-top: 0px;
+}
+
+.top-section{
+	height: 100vh;
+	background-image: url("images/ute_1.jpg");
+	background-size: cover;
+}
+
+.header-wrapper{
+	width: 90%;
+	max-width: 1100px;
+	margin: auto;
+	padding-top:100px;
+	padding-left: 20px;
+	padding-right: 20px;
+	color: white;
+}
+
+.navbar{
+	width: 90%;
+	max-width: 1100px;
+	margin: auto;
+	padding: 20px;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.nav-btn{
+	width: 100px;
+	text-align: center;
+	display: block;
+	background-color: #6F86AD;
+	color: white;
+	padding-left: 25px;
+	padding-right: 25px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-right: 10px;
+	margin-top:10px;
+	border-radius: 40px;
+	text-decoration: none;
+	font-size: 14px;
+	letter-spacing: 1px;
+}
+.google-maps{
+	width: 200px;
+	text-align: center;
+	display: inline-block;
+	background-color: white;
+	color: black;
+	padding-left: 25px;
+	padding-right: 25px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-right: 10px;
+	margin-top:10px;
+	margin-bottom: 10px;
+	border-radius: 40px;
+	text-decoration: none;
+	font-size: 14px;
+	letter-spacing: 1px;
+}
+.content-hero-ankomst {
+	background-image: url("images/inne_1.jpg");
+	background-size: cover;
+	height: 200px;
+}
+.content-hero-avresa{
+	background-image: url("images/inne_1.jpg");
+	background-size: cover;
+	height: 200px;
+}
+.content-hero-stugan{
+	background-image: url("images/inne_1.jpg");
+	background-size: cover;
+	height: 200px;
+}
+.content-hero-tanndalen{
+	background-image: url("images/inne_1.jpg");
+	background-size: cover;
+	height: 200px;
+}
+
+
+.content-wrapper{
+	width: 100%;
+	max-width: 1100px;
+	margin: auto;
+	padding-top:20px;
+	padding-left: 20px;
+	padding-right: 20px;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.article-wrapper{
+	width: 30%;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen 
+and (max-width : 720px) {
+	
+	h1{
+		font-size: 50px;
+		line-height: 50px;
+	}
+	h2{
+		font-size: 50px;
+	}
+	h2.header{
+		font-size: 25px;
+		line-height: 25px;
+		margin-bottom: 20px;
+	}
+.content-wrapper{
+	width: 100%;
+	max-width: 1100px;
+	margin: auto;
+	padding-top:20px;
+	padding-left: 20px;
+	padding-right: 20px;
+	display: block;
+}
+.article-wrapper{
+	width: 80%;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+}
