@@ -22,8 +22,37 @@ h2 {
 }
 
 .navigation{
+	width:100%;
 	margin-top: 40px;
 	margin-bottom: 20px;
+	display: flex;
+	flex-direction: column;
+}
+
+.navigation ul {
+  list-style-type: none;
+}
+
+.navigation li {
+  display: inline-block;
+  list-style-type: none;
+  margin: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.navigation a {
+  text-decoration: none;
+  color: #000;
+  display: block;
+}
+
+.navigation a:hover {
+  color: #666;
+  display: block;
+  transition: .6s background-color;
 }
 
 .header-image-wrapper{
@@ -46,6 +75,7 @@ h2 {
 	width: 100%;
 	margin-right: auto;
 	margin-left: auto;
+	text-align: center;
 }
 
 
