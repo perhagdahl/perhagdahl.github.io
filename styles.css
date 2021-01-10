@@ -2,3 +2,14 @@
 body {
   background-color: lightblue;
 }
+
+
+/* Smartphones (portrait) ----------- */
+@media only screen 
+and (max-width : 320px) {
+
+	body {
+		background-color: brown;
+	}
+	
+}
