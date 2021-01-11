@@ -7,6 +7,13 @@ body {
 	padding: 0;
 }
 
+
+h2 {
+	font-size: 24px;
+	margin-top: 30px;
+	margin-bottom: 10px;
+}
+
 h4 {
     text-transform: uppercase;
 	letter-spacing: 6px;
@@ -15,11 +22,14 @@ h4 {
 	margin-bottom: 0px;
 }
 
-h2 {
-	font-size: 24px;
-	margin-top: 30px;
-	margin-bottom: 10px;
+h5 {
+	letter-spacing: 0px;
+	font-size: 18px;
+	line-height: 24px;
+	margin-top: 20px;
+	margin-bottom: 0px;
 }
+
 
 .navigation{
 	margin-left: auto;
@@ -78,6 +88,39 @@ a.link-button {
 	text-align: center;
 }
 
+.content-wrapper{
+	width=100%;
+	max-width: 1100px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #fff;
+}
+
+.section-header{
+	width: 60%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	padding: 40px;
+	background-color: #fff;
+}
+
+.article-wrapper{
+	flex-wrap: wrap;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	background-color: #fff;
+}
+
+.article{
+	width: 40%;
+	min-width: 300px;
+	padding: 20px;
+	margin: 5px;
+	background-color: #fff;
+}
+
 
 
 
@@ -86,8 +129,22 @@ a.link-button {
 and (max-width : 767px) {
 
 	
-	.header-image-wrapper{
+.header-image-wrapper{
 	margin-bottom: 40px;
 	width: 80vw;
+	}
+
+.article{
+	width: 90%;
 }
+	
+.section-header{
+	width: 90%;
+	text-align: left;
+	min-width: 300px;
+	padding: 20px;
+	margin: 5px;
+	}
+	
+	
 }
