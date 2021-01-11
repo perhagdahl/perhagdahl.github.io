@@ -22,26 +22,23 @@ h2 {
 }
 
 .navigation{
-	width:100%;
+	margin-left: auto;
+	margin-right: auto;
 	margin-top: 40px;
-	padding: 20px;
 	margin-bottom: 20px;
-	display: flex;
-	flex-direction: column;
 }
 
-.navigation ul {
+a.link-button {
+	display: block;
   list-style-type: none;
-}
-
-.navigation li {
-  display: inline-block;
-  list-style-type: none;
-  margin: 5px;
   padding-left: 20px;
   padding-right: 20px;
   padding-top: 10px;
   padding-bottom: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+	margin-top: 0px;
+	margin-bottom: 0px;	
 }
 
 .navigation a {
@@ -57,7 +54,7 @@ h2 {
 }
 
 .header-image-wrapper{
-	margin-bottom: 40px;
+	margin-bottom: 20px;
 	width: 30vw;
 }
 
@@ -66,6 +63,8 @@ h2 {
 	flex-direction: column;
 	justify-content: center;
 	height: 100vh;
+	padding-left: 40px;
+	padding-right: 40px;
 }
 
 .header{
@@ -82,15 +81,13 @@ h2 {
 
 
 
-
-
-
 /* Smartphones (portrait) ----------- */
 @media only screen 
 and (max-width : 767px) {
 
-	body {
-		background-color: brown;
-	}
 	
+	.header-image-wrapper{
+	margin-bottom: 40px;
+	width: 80vw;
+}
 }
