@@ -2,11 +2,16 @@
 body {
     background-color: white;
 	font-size: 16px;
-	font-family: 'Special Elite', cursive;
+	font-family: 'Special Elite', "sans-serif";
 	margin: 0;
 	padding: 0;
-    overflow-x: hidden;}
+    overflow-x: hidden; 
+	overflow-y: auto;
+}
 
+p{
+	line-height: 22px;
+}
 
 h2 {
 	font-size: 24px;
